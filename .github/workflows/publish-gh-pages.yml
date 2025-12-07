@@ -1,7 +1,9 @@
 name: Publish Helm chart (gh-pages)
 
 on:
-  workflow_dispatch: {}
+  push:
+    branches:
+      - wip
 
 jobs:
   release:
